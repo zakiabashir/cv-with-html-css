@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #FF6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+.summary, .work-history, .education, .skills, .languages, .personal-info {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    background: #FF6600;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+.right-column .profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.job, .school {
+    margin-bottom: 10px;
+}
+
+.job h3, .school h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #FF6600;
+}
+
+.job p, .school p {
+    margin: 5px 0;
+}
+
+.skills ul, .languages p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills ul li, .languages p {
+    margin-bottom: 5px;
+}
+
+.stars {
+    color: gold;
+    font-size: 16px;
+}
+
+.personal-info p, .skills ul, .languages p {
+    margin: 5px 0;
+}
